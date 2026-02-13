@@ -4,6 +4,8 @@
 
 This project tackles a paired-image classification task inspired by the game rock–paper–scissors. Designed a Siamese ResNet50 in PyTorch to classify paired grayscale images for a rock–paper–scissors Kaggle challenge. Used shared encoders with feature concatenation and FC layers. Tuned warm restarts, dropout, balanced BCE, mixed precision, and F1-based thresholds. Achieved 0.9048 private LB accuracy, outperforming multiple baselines.
 
+The dataset is not included in this repository due to size limitations.
+
 Each training sample consists of:
 - Two 24×24 grayscale images
 - A binary label:
